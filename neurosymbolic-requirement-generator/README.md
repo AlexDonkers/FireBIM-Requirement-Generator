@@ -2,6 +2,8 @@
 
 The FireBIM Requirement Generator is a Python implementation of the neuro-symbolic sentence-to-SHACL approach developed in FireBIM Deliverable 2.3. It converts a regulatory statement into a machine-interpretable SHACL rule while retaining intermediate representations for validation.
 
+The generator has a web-app that is accessible via https://neurosymbolic-requirement-generator.streamlit.app/
+
 ## Features
 
 - Language-specific NLP preprocessing with automatic spaCy model installation
