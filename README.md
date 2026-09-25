@@ -54,8 +54,3 @@ The tools are part of the wider FireBIM project on digitalisation of fire safety
 
 [Visit FireBIM.org →](https://www.firebim.org/)
 
-## Suggested repository use
-
-The repository can be published directly to GitHub and archived in Zenodo. Each tool directory contains its own README with the purpose, input and output, implementation details, and usage information appropriate to that tool.
-
-For users primarily interested in generating machine-interpretable fire safety requirements, start with the [Neuro-symbolic Requirement Generator](./neurosymbolic-requirement-generator/).
