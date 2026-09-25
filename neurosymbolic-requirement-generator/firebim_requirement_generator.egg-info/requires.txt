@@ -1,0 +1,15 @@
+numpy>=1.26
+pydantic>=2.7
+rdflib>=7.0
+requests>=2.32
+scikit-learn>=1.4
+sentence-transformers>=3.0
+spacy>=3.7
+streamlit>=1.59
+google-genai>=1.0
+pyshacl>=0.27
+torch>=2.2
+torchvision
+
+[test]
+pytest>=8.0

@@ -1,0 +1,2 @@
+[console_scripts]
+firebim-generate = requirement_generator.cli.generate:main

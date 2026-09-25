@@ -1,0 +1,2 @@
+The training notebook itself should be placed in this folder before publishing the repository.
+Expected filename from the FireBIM workflow: 4TU_14UAS_SHACLvalidatorChatbot.ipynb

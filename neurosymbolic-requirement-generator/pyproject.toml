@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "firebim-requirement-generator"
+version = "0.1.0"
+description = "Neuro-symbolic generator for SHACL-based digital building requirements"
+requires-python = ">=3.11"
+authors = [
+  {name = "FireBIM / TU/e"}
+]
+
+dependencies = [
+  "numpy>=1.26",
+  "pydantic>=2.7",
+  "rdflib>=7.0",
+  "requests>=2.32",
+  "scikit-learn>=1.4",
+  "sentence-transformers>=3.0",
+  "spacy>=3.7",
+  "streamlit>=1.59",
+  "google-genai>=1.0",
+  "pyshacl>=0.27",
+  "torch>=2.2",
+  "torchvision",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["requirement_generator*"]
+
+[project.scripts]
+firebim-generate = "requirement_generator.cli.generate:main"
