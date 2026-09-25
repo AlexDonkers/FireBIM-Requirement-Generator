@@ -23,6 +23,7 @@ A lightweight NLP prototype that analyses a regulatory sentence with dependency 
 The main software tool of D2.4. It combines language-specific NLP, ontology-based semantic grounding, embedding-based ontology optimisation, structured LLM generation, FOL formalisation, SHACL generation, validation, and Mermaid visualisation.
 
 [Open the Neuro-symbolic Requirement Generator →](./neurosymbolic-requirement-generator/)
+[Open the web-app →](.https://neurosymbolic-requirement-generator.streamlit.app/)
 
 ### 4. Chatbot and Validation Notebook
 
